@@ -1,3 +1,8 @@
-for x in range(10, 0, 1):
-    print(x)
-print('end')
+import turtle as t
+
+for i in range(10):
+    t.forward(20)
+    t.left(90)
+    t.forward(20)
+    t.right(90)
+t.done()
